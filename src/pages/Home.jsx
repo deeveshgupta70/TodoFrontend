@@ -74,7 +74,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get(`${server}/task/my`, {
+      .get(`${server}/task/allTask`, {
         withCredentials: true,
       })
       .then((res) => {
